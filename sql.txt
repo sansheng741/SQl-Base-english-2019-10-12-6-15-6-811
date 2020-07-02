@@ -1,0 +1,35 @@
+create databases student_examination_sys;
+
+create table sutdent(
+id int(11) not null,
+name varchar(16),
+age int(3),
+sex varchar(8),
+primary key(id)
+);
+insert into sutdent(id,name,age,sex) values(001,zhangsan,18,male);
+insert into sutdent(id,name,age,sex) values(002,'lisi',20,'female');
+
+
+
+create table subject(
+id int(11) not null,
+subject varchar(16),
+teacher varchar(16),
+description varchar(64),
+primary key(id)
+);
+insert into subject(id,subject,teacher,description) values(1001,'Chinese','Mr.Wang','the exam is easy');
+insert into subject(id,subject,teacher,description) values(1002,'math','Miss Liu','the exam is difficult');
+
+
+create table sutdent(
+id int(11) not null,
+name varchar(16),
+age int(3),
+sex varchar(8),
+primary key(id)
+);
+insert into sutdent(id,name,age,sex) values(001,zhangsan,18,male);
+insert into sutdent(id,name,age,sex) values(002,'lisi',20,'female');
+
